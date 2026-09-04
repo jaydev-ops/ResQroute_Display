@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --canvas-bg: #F5F5F7;
+    --text-primary: #1D1D1F;
+    --text-secondary: rgba(29, 29, 31, 0.65);
+    --text-muted: rgba(29, 29, 31, 0.45);
+    --border-subtle: rgba(0, 0, 0, 0.06);
+    
+    --primary-blue: #007AFF;
+    --primary-blue-hover: #0066d6;
+    --accent-amber: #FFB248;
+    --accent-amber-text: #CC7A00;
+    --safe-green: #00C853;
+    --danger-red: #FF3B30;
+    
+    --surface-card: #FFFFFF;
+    --surface-pill: rgba(255, 255, 255, 0.85);
+  }
+
+  body {
+    background-color: #F5F5F7;
+    color: #1D1D1F;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'SF Mono', 'JetBrains Mono', Menlo, monospace;
+  }
+
+  /* Custom Apple-grade subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.28);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+

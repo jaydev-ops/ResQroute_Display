@@ -1,0 +1,7 @@
+{
+  "name": "resQroute - Disaster Evacuation Ecosystem",
+  "description": "Life-safety disaster evacuation and shelter intelligence platform replacing shortest path with safest path.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
